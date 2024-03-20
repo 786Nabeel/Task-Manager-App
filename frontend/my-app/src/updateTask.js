@@ -23,7 +23,7 @@ const UpdateTask = ({ match }) => {
       await axios.put(`${apiUrl}/tasks`, task);
       alert("Task updated successfully!");
     } catch (error) {
-      alert("Error updating employee");
+      alert("Error updating Task");
     }
   };
 
